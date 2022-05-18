@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="first.css.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <div id="topbar">
+            <div class="menu">
+                <img src="logo1.jpg" alt="">
+            </div>
+            <div class="menu">
+            <nav>
+           <ul>
+           <li><a href="">Movies</a></li>
+           <li><a href="">Tv serieal</a></li>
+           <li><a href="">audio</a></li>
+        </ul>
+        </nav>
+        </div>
+        </div>
+    </header>
+    <!--image slider-->
+    <div class="slider-container">
+        <div class="slide">
+            <img src="lagan.jpg" alt="image is not avelable">
+        </div>
+        <div class="slide">
+            <img src="durva.jpg" alt="image is not avelable">
+        </div>
+        <div class="slide">
+            <img src="hero.webp" alt="image is not avelable">  
+        </div>
+        <div class="slide">
+            <img src="honted.jpg" alt="image is not avelable">
+        </div>
+    </div>
+    <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+    <span class="arrow next" onclick="controller(1)">&#10095;</span>
+    <!--move opption--> 
+    <div id="select">
+        <span id="opption">
+        <select class="sec">
+            <option value="audio">action</option>
+            <option value="audio">love</option>
+            <option value="audio">comedy</option>
+        </select>
+        </span>
+        <span id="search">
+            <input class="search" text="search" placeholder="type to search">
+        </span>
+        <div id="center">
+            <div id="name">
+                <h1>Action Moves</h1>
+            </div>
+            <div id="line">___</div>
+            <div class="moves">
+                <img src="lagan.jpg" alt="image is not avelable" class="imgdistance"><br>
+                <a href=""class="content">lagan</a><br>
+                <a href="click here to watch"class="content">clich here to watch</a>
+            </div>
+            <div class="moves">
+                <img src="durva.jpg" alt="image is not avelable" class="imgdistance"><br>
+                <a href=""class="content">durva the hero</a><br>
+                <a href="click here to watch"class="content">clich here to watch</a>
+            </div>
+            <div class="moves">
+                <img src="hero.webp" alt="image is not avelable" class="imgdistance">  <br>
+                <a href=""class="content">hero</a><br>
+                <a href="click here to watch"class="content">clich here to watch</a>
+            </div>
+            <div class="moves">
+                <img src="honted.jpg" alt="image is not avelable" class="imgdistance"><br>
+                <a href=""class="content">honted</a><br>
+                <a href="click here to watch"class="content">clich here to watch</a>
+            </div>
+        </div>
+        </div>
+    <!--footer-->
+    <footer>
+        <div id="footercolor">
+        <div class="footer">
+            <img src="logo1.jpg">
+        </div>
+             <div class="footer">
+            <P>powered by 365 Enterainment portal 2019. All right Reserved</P>
+            </div>
+        </div>
+    </footer>
+    </body>
+    <script src="java.js"></script>
+</html>

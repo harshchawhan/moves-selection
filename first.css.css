@@ -1,0 +1,152 @@
+:root{
+    --primary:rgb(156, 238, 163);
+    --secondary:rgb(217, 225, 233);
+}
+/*top-bar color*/
+#topbar{
+    background: linear-gradient(90deg, var(--primary),var(--secondary));
+    overflow: auto;
+}
+.menu img{
+     border-radius: 10px;
+     float: left;
+     margin: 10px;
+     box-shadow: 2px 2px;
+}
+.menu ul{
+text-decoration: none;
+}
+.menu ul li{
+  display: inline-block;
+  text-decoration: none;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-size: 18px;
+}
+/*image slider*/
+.slider-container{
+  position: relative;
+}
+.slide img{
+  width: 100%;
+  overflow: auto;
+}
+.arrow{
+  cursor: pointer;
+  position: absolute;
+  top:45%;
+  color: black;
+  background-color: rgba(201, 179, 179,0.675);
+  padding: 10px 20px;
+  border-radius: 50%;
+  font-size: large;
+  font-weight: bold;
+}
+.next{
+  right: 10px;
+}
+.prev{
+  left: 10px;
+}
+.slide{
+  display: none;
+}
+/*moves opption*/
+#select{
+  background-color: black;
+  overflow: auto;
+}
+#opption{
+  margin-left:2%;
+  background: yellow;
+  width:100px;
+  width: 10%;
+}
+.sec{
+  border: none;
+  background: none;
+  outline: none;
+  width: 10%;
+  height: 30px;
+}
+#search{
+  background: yellow;
+  margin-left: 30%;
+  width: 0%;
+}
+.search{
+  border: none;
+  background: none;
+  outline: none;
+  width:50%;
+  height: 20px;
+  background-color: yellow;
+  margin-top: 20px;
+}
+/*center*/
+#name{
+  color: white;
+  margin: 20px;
+  margin-top: 20px;
+}
+#line{
+  background-color: white;
+  height:1px;
+  margin: 0px 20px;
+}
+.moves img{
+  width: 300px;
+  height: 270px;
+
+}
+.moves{
+  float: left;
+  margin:20px;
+}
+.content{
+  text-align: center;
+  margin-left: 30%;
+}
+.imgdistance{
+  margin-left: 10px;
+}
+/*footer*/
+#footercolor{
+  background:linear-gradient(90deg,var(--primary),var(--secondary));
+  overflow: auto;
+}
+.footer{
+ text-align:start;
+ float: left;
+}
+.footer img{
+   margin-top: 9px;
+   margin-left: 10px;
+   border-radius: 25%;
+   box-shadow: 2px 2px;
+}
+.footer p{
+  margin-left: 10px;
+}
+.slide{
+  display: none;
+}
+/*responsive*/
+@media only screen and (max-width:790px){
+  .arrow{
+    top: 30%;
+  }
+  .moves img {
+    width: 300px;
+    height: 276px;
+    margin: -8px;
+}
+}
+@media only screen and (max-width: 550px){
+  .arrow{
+    top: 18%;
+  }
+}
